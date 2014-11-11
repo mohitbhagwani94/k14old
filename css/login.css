@@ -1,0 +1,26 @@
+*{padding: 0px; margin:0px; }
+
+body{background: rgb(248,248,248);margin: 0px;}
+#wrapper{ width:1200px;margin:0px auto; *border:1px solid #ddd;*text-align: center;*background: #fff;color:#333;min-height: 700px;}
+#container{ margin:0px auto; width:100%; *top:125px; padding-bottom: 40px;background:rgba(0,0,0,0.2);height:100%; }
+
+/*login components styling*/
+#login_container
+{
+	position: relative; 
+	margin:0px auto; top:100px;
+	height:250px; width:400px; 
+	border:1px solid #ddd; 
+	background:rgba(248,248,248,0.6);
+	border-radius: 20px 0px 20px 0px;
+}
+#login_form_holder{position: absolute; height:90%; width:90%; top:5%; left:5%;}
+#login_form_holder form table{ width: 100%; top:10%;margin-top:30px;}
+#login_form_holder form table tr td{text-align: center; padding:20px 0px; }
+
+.login_inputs{height: 30px; width:300px;  box-shadow: 0 0 2px 1px #ccc; border-radius: 10px 10px;}
+.login_inputs:focus{outline-style:none; border: 1px solid #000; }
+
+.btn{background-color: #514f50;border-radius: 5px; color:#fff; padding:10px; width:150px;border:0px;margin-top:17px;}
+.btn:hover{background:#333;color:#ccc;cursor: pointer;}
+

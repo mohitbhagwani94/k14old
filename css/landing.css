@@ -1,0 +1,40 @@
+*{margin:0px;}
+body{font-family:calibri;}
+#header{background:linear-gradient(#ccc,#333);position: fixed;min-height:40px;margin:0px;}
+#srm-logo{background:url("../images/srm.png");background-size: 100% 100%;height: 50px;width: 7%;
+float:right;margin-top: 7px}
+#kon-logo{background: url("../images/konvolve.png") no-repeat center center / 100% 100% transparent;
+height: 50px;width: 21%;float:left;}
+#aaruush-logo{background:url("../images/aaruush.png") no-repeat center center / 100% 100% transparent;
+height: 50px;width: 6%;float:right;}
+#web-logo{position: fixed;bottom: 30px;right: 1%;height: 50px;width: 10%;background: url('../images/webarch.png');
+background-size: 100% 100%;}
+
+.tabs{min-height: 200px;*width: 100%;padding-top: 70px;}
+#one{background: url("../images/bk3.jpg");background-size: 100% 100%;min-height: 550px;background-attachment: fixed;}
+#two{*background: rgba(201,32,32,0.7);color:#fff;padding: 10%;padding-top:70px;padding-bottom: 10px;min-height:200px;
+line-height:30px;}
+#three{background:background-size: 100% 100%;background-attachment: fixed;
+min-height: 500px;color:#fff;padding:5%;*text-align: center;}
+#four{background: rgba(0,0,0,0.7);color:#fff;background-size: 100% 100%;background-attachment: fixed;
+min-height: 300px;}
+#five{background: #2c3e50;padding: 10%;padding-top:40px;padding-bottom: 10px;height:400px;}
+#comb{background:rgba(0,0,0,0.6);min-height:800px;margin:0px auto;width:1200px;}
+
+#one-left{min-height: 300px;width: 21%;background: rgba(0,0,0,0.6);color:#fff;display: inline-block;vertical-align: top;padding: 1%;
+margin-top:100px;text-align: center;}
+#one-mid{min-height: 500px;width: 50%;color:#fff;display: inline-block;vertical-align: top;padding: 1%;
+text-align: center;}
+#one-right{height: 300px;width: 21%;background: rgba(0,0,0,0.6);color:#fff;display: inline-block;vertical-align: top;padding: 1%;
+margin-top: 100px;overflow-y:scroll;text-align: center;}
+.o_l{margin-top: 20px;font-size: 17px;color:#ccc;}
+.o_r{margin-top: 20px;font-size: 13px;color: #ccc}
+.o_m{height:100px;width: 25%;margin: 2%;display: inline-block;vertical-align: top;}
+.o_m:hover{opacity: 0.8;cursor: pointer;}
+.o_m_b{min-width: 30%;margin: 5%;display: inline-block;vertical-align: top;padding: 2%;font-size: 20px;
+background-color: rgba(211, 84, 0,0.5);border-radius: 10px 10px;margin-bottom: 50px;}
+a .o_m_b{color: #fff;}
+.o_m_b:hover{box-shadow: 0 0 6px 2px #333;cursor: pointer;}
+.tr_r:before{content:"-->";}
+.tr_r{margin-top: 30px;}
+.f_sp{height:200px;width: 30%;display: inline-block;vertical-align: top;background: #ccc;margin: 1%;}
